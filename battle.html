@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RockPaperScissors</title>
+    <link rel="icon" type="image/x-icon" href="img/versus.ico">
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+    <div class="container">
+        <div class="show_score">
+            <div class="picked_info">
+                <h2 id="plaer_name" class="name_txt">YOU</h2>
+                <img id="player_picked_img" class="picked_img" src="img/question2.png" alt="player_picked" height="250px" width="250px">
+                <div class="txt_con">
+                    <h2 id="player_score" class="score_txt">0</h2>
+                </div>
+            </div>
+
+            <div class="vs_con">
+                <h2 id="result_txt">Click a choice to begin</h2>
+                <img id="vs_img" src="img/vs.png" height="250px" width="250px">
+            </div>
+
+            <div class="picked_info">
+                <h2 id="bot_name" class="name_txt">ENEMY</h2>
+                <img id="bot_picked_img" class="picked_img" src="img/question2.png" alt="bot_picked" height="250px" width="250px">
+                <h2 id="bot_score"  class="score_txt">0</h2>
+            </div>
+        </div>
+        <div class="choice_con">
+            <button id="rock" class="choice_btn"><img src="img/rock.png" alt="rock" height="150px" width="150px"></button>
+            <button id="paper" class="choice_btn"><img src="img/paper.png" alt="paper" height="150px" width="150px"></button>
+            <button id="scissors" class="choice_btn"><img src="img/scissors.png" alt="scissors" height="150px" width="150px"></button>
+        </div>
+        <div class="back_btn_con">
+            <a href="index.html">
+                <button class="back_btn">Back</button>
+            </a>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
